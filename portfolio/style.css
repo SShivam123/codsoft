@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.nav-bar ul{
+  list-style:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-transform:uppercase;
+  height: 70px;
+  position:absolute;
+  left:400px;
+}
+
+.nav-bar ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-bar ul a:hover{
+  text-decoration:underline;
+  color:black;
+  transition:0.3s ease-out;
+}
+
+.left-container{
+  background-color: #3877ee;
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+.right-container{
+  background-color:black;
+  height: 100vh;
+  width: 30%;
+
+}
+
+.links a{
+  color: white;
+  font-size: 30px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content{
+  color: white;
+  margin-left:40px;
+}
+
+.content h1{
+  font-size:3rem;
+  color:black;
+}
+
+.content h2{
+  font-size: 2rem;
+}
+
+.content span{
+  color: black;
+}
+
+.content .detail{
+    font-size: 1.1rem;
+    max-width: 38rem;
+    margin:1.1rem 0 3rem 0;
+    line-height:1.8rem;
+}
+
+.button button{
+   border: 2px solid black;  
+   font-size: 1.1rem;
+   padding: 10px 10px;
+   transition: 0.3s ease-out;
+   border-radius: 5px;
+}
+
+.button button:nth-child(1){
+  background-color:black;
+  color: white;
+}
+
+.button button:nth-child(1):hover{
+  background:transparent;
+  color: black;
+  cursor: pointer;
+}
+
+
+.button button:nth-child(2){
+  background:transparent;
+  color: black;
+  margin-left: 1.5rem;
+}
+
+.button button:nth-child(2):hover{
+  background-color:black;
+  color: white;
+  cursor: pointer;
+}
+
+.right-container img{
+  width: 30vw;
+  height: 80vh;
+  border-radius:50%;
+  border: 8px solid #3877ee;
+  position: relative;
+  top: 60px;
+  right: 130px;
+  box-shadow:0 0 15px #d4ecff;
+  cursor: pointer;
+}
+
+.button button a{
+  color:black ;
+  text-decoration: none;
+}
+
+.button button a:hover{
+  color: white;
+}
+
+.second-container{
+  margin-top: 30px;
+  background-color: #3877ee;
+  height: 100vh;
+  width: 100%;
+}
+
+.project{
+  padding-top: 20px;
+  position: absolute;
+  right: 50px;
+  text-align: center;
+  
+}
+.one{
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  margin-top:30px;
+  box-shadow:0 0 15px #d4ecff;
+  transition: 0.3s ease-out;
+}
+
+.one:hover,.two:hover,.experience:hover,.contact:hover{
+  transform:translateY(-2px);
+}
+
+.one p{
+  margin-bottom:15px;
+}
+.two{
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  margin-top:30px;
+  box-shadow:0 0 15px #d4ecff;
+  transition: 0.3s ease-out;
+}
+
+.hii{
+  position: relative;
+  top: 20px;
+}
+
+.two p{
+  margin-bottom:15px;
+}
+
+.project .one button{
+  height: 40px;
+  border-radius: 4px;
+  padding:10px 10px;
+}
+.project .one a,.project .two a{
+  text-decoration: none;
+}
+
+.project .one a:hover{
+  color:black;
+}
+
+.project .two a:hover{
+  color:black;
+}
+
+.project .one button:hover{
+  background-color:aqua;
+  color: white;
+}
+.project .two button{
+  height: 40px;
+  border-radius: 4px;
+  padding:10px 10px;
+}
+.project .two button:hover{
+  background-color:aqua;
+  color: white;
+}
+
+.experience {
+  padding-top:50px;
+  margin-left:80px;
+  transition: 0.3s ease-out;
+}
+
+.experience ul{
+  padding: 20px 20px 20px 35px;
+  background-color: black;
+  color: white;
+  box-shadow:0 0 15px #d4ecff;
+  width:350px;
+  height: 118px;
+  cursor: pointer;
+}
+
+.experience h2{
+  position: relative;
+  bottom: 30px;
+}
+
+.contact{
+  padding-top:30px;
+  margin-left:80px;
+  transition: 0.3s ease-out;
+}
+
+.contact ul{
+  padding: 20px 20px 20px 35px;
+  background-color: black;
+  color: white;
+  box-shadow:0 0 15px #d4ecff;
+  width:350px;
+  height: 118px;
+  cursor: pointer;
+}
+
+.contact h2{
+  position: relative;
+  bottom: 10px;
+}
+
+.contact a{
+  color: white;
+}
+
+footer{
+  background-color:black;
+  padding:10px 15px;
+  text-align: center;
+  color: white;
+}
